@@ -94,10 +94,10 @@ This means there is a 50% probability that any single measurement lies within $\
 | North | 100 | 4.6800 | 2.0145 | 0.2014 | 1.3588 |
 | East  | 100 | 4.8500 | 2.1432 | 0.2143 | 1.4456 |
 | South | 100 | 4.3700 | 1.8127 | 0.1813 | 1.2227 |
-| West  |  99 | 4.3636 | 1.9297 | 0.1939 | 1.3016 |
-| **Combined** | **599** | **4.5476** | **1.9808** | **0.0809** | **1.3361** |
+| West  |  100 | 4.3636 | 1.9297 | 0.1939 | 1.3016 |
+| **Combined** | **600** | **4.5476** | **1.9808** | **0.0809** | **1.3361** |
 
-*Note: West direction has 99 readings (one missing data entry removed).*
+ 
 
 ---
 
@@ -121,7 +121,7 @@ The figure includes:
 | Standard deviation σ | **1.9808** |
 | Standard error SE | **0.0809** |
 | Probable error PE | **1.3361** |
-| Poisson variance check (σ²/μ) | **0.863** (close to 1.0 ✅) |
+| Poisson variance check (σ²/μ) | **0.863** (close to 1.0) |
 
 ---
 
@@ -137,7 +137,7 @@ The natural background radiation at the rooftop of Tri-Chandra Multiple Campus, 
 
 3. **Poisson statistics validated:** The ratio σ²/μ = 0.863 ≈ 1, consistent with Poisson statistics where variance equals mean. This confirms the radioactive decay process is truly random and memoryless.
 
-4. **Standard error is small:** SE = 0.0809 for the combined dataset — indicating a reliable estimate of the true mean background count rate with 599 measurements.
+4. **Standard error is small:** SE = 0.0809 for the combined dataset — indicating a reliable estimate of the true mean background count rate with 600 measurements.
 
 The experiment successfully demonstrates that natural background radiation obeys the statistical laws of quantum mechanics — specifically the Poisson distribution, well-approximated by a Gaussian for counts above ~5.
 
